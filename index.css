@@ -1,0 +1,309 @@
+body{
+    width:100%
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+/*----First background image-----*/
+
+.img{
+    background-image: url('/images/background\ img\ 1st.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width:100%
+    
+}
+.bt{
+    width:20px;
+    height:20px;
+    margin-left: 10%;
+}
+.sgn{
+    width:30%;
+    margin-left:10%;
+
+}
+.box{
+    width: 500px;
+}
+.crd{
+   
+    background-color: rgb(236, 220, 235);
+    height:auto;
+}
+
+.aal{
+    margin-left: 50%;
+    padding-bottom: 2%; 
+    color: black; 
+    font-weight: 800; 
+    padding-top: 5%; 
+}  
+.aal h3:hover{
+   font-size: 200%;
+
+}
+
+.ime img{
+  width:70%;
+  height:30%;
+  margin:15px;
+ 
+
+}
+.ime{
+  width:15rem;
+  height:15rem;
+  margin-left: 50%;
+  transition: .5s;
+
+  }
+
+.ime img:hover{
+  box-shadow: rgba(0,0,0,0.35)0px 5px 15px;
+  } 
+
+.theroow{
+  padding-left: 15%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.qte{
+    /* background-color: rgb(7, 186, 7); */
+    background-image: url(./images/solid-concrete-wall-textured-backdrop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
+    position: relative;
+ }
+.rock{
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top:0%;
+    position: absolute;
+    top: 30%;
+    padding-left: 10%; 
+
+}
+.rock h1:hover{
+    font-size: 200%;
+
+}
+.rock h1 span:hover{
+     color:#ffd500;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px; 
+    margin-left: 70%;
+    padding-top:5%;
+    /* margin-top: 10%; */
+
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+
+.fav{
+    
+     background-image: url("./images/violet-watercolor-texture-background.jpg"); 
+     background-size: cover; 
+     background-repeat: no-repeat; 
+    height:1300px;
+    /* background-color: black; */
+}
+ .jap{
+     text-align: center; 
+     padding-bottom: 7%; 
+     color: black; 
+     font-weight: 800; 
+     padding-top: 10%; 
+ }  
+ .jap h3:hover{
+    font-size: 200%;
+
+}
+
+
+
+
+.imm img{
+    width:70%;
+    height:30%;
+    margin:15px;
+    border-radius: 100%;
+
+}
+.imm{
+    width:15rem;
+    height:15rem;
+    margin-left: 50%;
+    transition: .5s;
+    border-radius: 100%;
+    }
+
+ .imm img:hover{
+    box-shadow: rgba(0,0,0,0.35)0px 5px 15px;
+    } 
+
+.therow{
+    padding-left: 20%;
+}
+ 
+.bts h1{
+    font-size: large;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}  
+
+
+
+
+
+.qot{
+    /* background-color: rgba(240, 7, 135, 0.799); */
+    background-image: url(./images/14350797_5470877.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
+    position: relative;
+}
+.calm{
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top:0%;
+    position: absolute;
+    top: 40%;
+    padding-left: 60%; 
+
+}
+.calm h1:hover{
+    font-size: 200%;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .fli-car {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px; 
+    margin-left: 10%;
+    padding-top:5%;
+    /* margin-top: 10%; */
+
+  }
+  
+  .fli-car-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .fli-car:hover .fli-car-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .fli-car-front, .fli-car-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .fli-car-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .fli-car-back {
+
+    transform: rotateY(180deg);
+  }
+
+
+
+.ist{
+    background-color: rgb(0, 0, 0);
+    height:auto;
+    width:100%;
+    padding: 0;
+    text-align: left;
+
+    
+}
+.fea{
+    display: flex;
+    width:100%;
+    padding: 5%;
+}
+
+.laast{
+     margin-left:20%; 
+     color:white;
+   
+
+}
+    
+.cs{
+    color: gray;
+}
+.com{
+    color: gray;
+}
+.comm{
+    color:gray
+}
